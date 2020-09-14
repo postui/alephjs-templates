@@ -12,5 +12,5 @@ $ git clone https://github.com/postui/alephjs-templates
 $ cd alephjs-templates
 
 # run template
-$ deno run -A https://alephjs.org/cli.ts ./hello-world
+$ deno run -A https://deno.land/x/aleph/cli.ts ./hello-world
 ```
