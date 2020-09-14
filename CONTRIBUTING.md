@@ -1,6 +1,6 @@
-# Contributing to postjs-template
+# Contributing to alephjs-templates
 
-Welcome, and thank you for taking time in contributing to postjs!
+Welcome, and thank you for taking time in contributing to alephjs-templates!
 
 ## Development Setup
 
@@ -8,9 +8,9 @@ You will need [deno](https://deno.land/) 1.3+ and [vscode](https://code.visualst
 
 ```bash
 # clone the code
-$ git clone https://github.com/postui/postjs-templates
-$ cd postjs-templates
+$ git clone https://github.com/postui/alephjs-templates
+$ cd alephjs-templates
 
 # run template
-$ deno run -A https://postjs.io/cli.ts ./hello-world
+$ deno run -A https://alephjs.org/cli.ts ./hello-world
 ```

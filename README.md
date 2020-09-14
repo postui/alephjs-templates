@@ -1,12 +1,7 @@
-# PostJS Templates
-Templates for [postjs](https://github.com/postui/postjs).
+# Aleph.js Templates
+Templates for [Aleph.js](https://github.com/postui/aleph.js).
 
-[WIP]
-
-<!--
-### Documentation
-Please visit https://postjs.io/docs to view the documentation.
+🚧 This project is work in progress.
 
 ### Contributing
 Please read the [contributing.md](CONTRIBUTING.md).
--->
