@@ -2,7 +2,7 @@ import React, { useState } from 'https://esm.sh/react'
 import Logo from '../components/logo.tsx'
 import '../style/index.less'
 
-export default function Home( ) {
+export default function Home() {
     const [count, setCount] = useState(0)
 
     return (
@@ -10,7 +10,7 @@ export default function Home( ) {
             <p className="logo"><Logo /></p>
             <p>Welcome to use <strong>Aleph.js</strong>!</p>
             <p className="links">
-                <a href="https://alephjs.org/guides" target="_blank">Get Started</a>
+                <a href="https://alephjs.org/docs/get-started" target="_blank">Get Started</a>
                 <span>&middot;</span>
                 <a href="https://alephjs.org/docs" target="_blank">Docs</a>
                 <span>&middot;</span>
@@ -19,8 +19,8 @@ export default function Home( ) {
             <p className="counter">
                 <span>Counter:</span>
                 <strong>{count}</strong>
-                <button onClick={() => setCount(n => n-1)}>-</button>
-                <button onClick={() => setCount(n => n+1)}>+</button>
+                <button onClick={() => setCount(n => n - 1)}>-</button>
+                <button onClick={() => setCount(n => n + 1)}>+</button>
             </p>
         </div>
     )
