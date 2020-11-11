@@ -1,7 +1,7 @@
 <div align="center">
     <br/>
     <br/>
-    <img src="./hello-world/public/logo.png" width="120" height="120" />
+    <img src="./hello-world/public/logo.svg" width="120" height="120" />
     <br/>
     <br/>
     <br/>
