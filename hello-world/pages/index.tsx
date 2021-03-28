@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="stylesheet" href="../style/index.css" />
       </head>
       <p className="logo"><Logo /></p>
-      <h1>Welcome to use <strong>Aleph.js</strong>!</h1>
+      <h1>Welcome to using <strong>Aleph.js</strong>!</h1>
       <p className="links">
         <a href="https://alephjs.org" target="_blank">Website</a>
         <span></span>
