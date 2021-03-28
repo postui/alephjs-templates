@@ -1,7 +1,7 @@
-import { useDeno } from 'aleph/react.ts'
+import { useDeno } from 'framework:react'
 import React from 'react'
-import Logo from '../components/logo.tsx'
-import useCounter from '../lib/useCounter.ts'
+import Logo from '~/components/logo.tsx'
+import useCounter from '~/lib/useCounter.ts'
 
 export default function Home() {
   const [count, isSyncing, increase, decrease] = useCounter()
@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="stylesheet" href="../style/index.css" />
       </head>
       <p className="logo"><Logo /></p>
-      <h1>Welcome to using <strong>Aleph.js</strong>!</h1>
+      <h1>Welcome to use <strong>Aleph.js</strong>!</h1>
       <p className="links">
         <a href="https://alephjs.org" target="_blank">Website</a>
         <span></span>
